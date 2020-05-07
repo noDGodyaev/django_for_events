@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"/>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.css" rel="stylesheet" type="text/css"/>
+    <title>Startpage</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'eventsp/CSS/main.css' %}">
+    <link rel="stylesheet" href="{% static 'eventsp/CSS/timetablejs.css' %}">
+    <link rel="stylesheet" href="{% static 'eventsp/CSS/demo.css' %}">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brad"><img src="../static/eventsp/Img/logo.svg" width="200" height="70"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResposive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResposive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Главная</a>
+                </li>
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a href="logout" class="nav-link">Выйти</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a href="register" class="nav-link">Регистрация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login" class="nav-link">Вход</a>
+                    </li>
+                {% endif %}
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Справка</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<h1 style="padding: 25px;background-color: #002ab2;"></h1>
+</body>
+</html>

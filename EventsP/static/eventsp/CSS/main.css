@@ -1,0 +1,44 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+p {
+  font-size: 22px;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center
+}
+.d9 h3 {
+  font-size: 30px;
+  text-align: left;
+  padding: 0 0 6px 10px;
+  border-left: 10px solid #A6D8CB;
+  border-bottom: 2px solid #A6D8CB;
+}
+
+.three a {
+  border-radius: 10px;
+  background: -webkit-linear-gradient(top, #A4D3E0 , #A4D3E0 50%, #CBE3EB 50%);
+  background: -o-linear-gradient(top, #A4D3E0 , #A4D3E0 50%, #CBE3EB 50%);
+  background: linear-gradient(to top, #A4D3E0 , #A4D3E0 50%, #CBE3EB 50%);
+  box-shadow: 2px 2px 3px black;
+  text-decoration: none;
+  line-height: 180%;
+}
+.three a:hover {
+  background: -webkit-linear-gradient(bottom, #A4D3E0 , #A4D3E0 50%, #CBE3EB 50%);
+  background: -o-linear-gradient(bottom, #A4D3E0 , #A4D3E0 50%, #CBE3EB 50%);
+  background: linear-gradient(to bottom, #A4D3E0 , #A4D3E0 50%, #CBE3EB 50%);
+}
+
+body, html{
+  background: white no-repeat;
+  background-size: 100%;
+  line-height: normal;
+}
+
+.navbar-nav li {
+  padding-right: 30px;
+}
+.nav-link {
+  font-size: 1.1em !important
+}

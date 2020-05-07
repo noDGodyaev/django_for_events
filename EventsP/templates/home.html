@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        a
+        {
+            display: block;
+            float: right;
+            margin-right: 25px;
+            padding: 10px 50px;
+            color: black;
+
+            border-radius : 15px;
+            border: 1px solid black;
+            text-decoration: none;
+            transition: color 0.5s , background 0.5s;
+        }
+
+        a:hover
+        {
+            color : white;
+            background : blue;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+{% if user.is_authenticated  %}
+<a href="logout">выйти({{user.username}})</a>
+{% else %}
+<a href="register">Регистрация на сайте</a>
+<a href="login">Авторизация</a>
+{% endif %}
+
+{% for elem in participants %}
+<p> Name  - {{elem.first_name}}</p>
+<p> Surname - {{elem.middle_name}}</p>
+<p> Group - {{elem.group_name}}</p>
+{% endfor %}
+
+        <form id='add-human' action="add-human/" method='post'>
+        {% csrf_token %}
+
+        {% for field in participant_form %}
+            <th scope="col">{{ field.label }}</th>
+        {% endfor %}
+        <tbody>
+        {% for field in participant_form %}
+            <tr>
+                <td>{{ field }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+        </table>
+
+
+        {% for field in participant_form %}
+            <label for="">{{ field.label }}</label>
+            <div>{{ field }}</div>
+        {% endfor %}
+        <button type='submit'>Добавить в таблицу</button>
+
+</body>
+</html>

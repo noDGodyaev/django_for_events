@@ -1,0 +1,61 @@
+{% load static %}
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css"/>
+    </head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brad"><img src="../static/eventsp/Img/logo.svg" width="200" height="70"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResposive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResposive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Главная</a>
+                </li>
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a href="logout" class="nav-link">Выйти</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a href="register" class="nav-link">Регистрация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login" class="nav-link">Вход</a>
+                    </li>
+                {% endif %}
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Справка</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<h1 style="padding: 25px;background-color: #002ab2;"></h1>
+<link href="{% static 'eventsp/CSS/login.css' %}}" rel="stylesheet">
+{% block login %}
+    <div class="col-2" style="margin-left: auto; margin-right: auto">
+        <h1 class="h3 mb-3 font-weight-normal col-4" style="margin-left: auto; margin-right: auto" >Вход</h1>
+        <form  action="" method="post" style="margin-left: auto; margin-right: auto">
+            {% csrf_token %}
+            <label for="inputEmail" class="sr-only">Имя пользователя</label>
+            <input type="text" id="inputEmail" class="form-control" placeholder="Имя пользователя" required
+                   autofocus
+                   name="{{ form.username.html_name }}">
+            <label for="inputPassword" class="sr-only">Пароль</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Пароль"
+                   name="{{ form.password.html_name }}" required>
+            <button id="btn_login" class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
+
+        </form>
+    <footer class="col-4" style="margin-left: auto; margin-right: auto">
+        <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+    </footer>
+    </div>
+</body>
+{% endblock %}
