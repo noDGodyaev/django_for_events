@@ -16,7 +16,8 @@
 <body>
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
-        <a href="#" class="navbar-brad"><img src="../static/eventsp/Img/logo.svg" width="200" height="70"></a>
+        <a href="#" class="navbar-brad"><img src="../static/eventsp/Img/logo.svg" width="100" height="70"></a>
+        <a href="#" class="navbar-brad"><img src="../static/eventsp/Img/4.jpg" width="100" height="100"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarResposive">
             <span class="navbar-toggler-icon"></span>
@@ -398,7 +399,7 @@
 
         function getTimatable(jsonObj) {
             var timetable = new Timetable();
-            timetable.setScope(1, 23);
+            timetable.setScope(12, 11);
             var Orgs = [];
             for (var i = 0; i < jsonObj.length; i++) {
                 var first_name = jsonObj[i].first_name;

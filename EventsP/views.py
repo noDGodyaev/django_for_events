@@ -109,7 +109,6 @@ def JSONPartView(request):
         else:
             print('incorrect form')
             return HttpResponse(status=400)
-        return HttpResponseRedirect("/events/")
 
 
 def JSONRoomView(request):
