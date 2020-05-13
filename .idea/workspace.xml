@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a82ed73-db2d-41b7-a66e-8f31b365d53c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/Img/4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsP/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventsP/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsP/templates/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/EventsP/templates/ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventsP/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,12 +106,24 @@
       <workItem from="1588356555631" duration="10673000" />
       <workItem from="1588502344932" duration="73012000" />
       <workItem from="1588761996704" duration="36632000" />
-      <workItem from="1589280681035" duration="3910000" />
+      <workItem from="1589280681035" duration="4909000" />
     </task>
+    <task id="LOCAL-00001" summary="few updates">
+      <created>1589302638224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589302638224</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="few updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="few updates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588692880675">
@@ -126,6 +134,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="330" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589280955375" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1589302637017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589302637017" />
     <state x="740" y="274" width="616" height="559" key="FileChooserDialogImpl" timestamp="1588089350888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
