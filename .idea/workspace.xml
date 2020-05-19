@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a82ed73-db2d-41b7-a66e-8f31b365d53c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/db3/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,7 @@
       <workItem from="1588761996704" duration="36632000" />
       <workItem from="1589280681035" duration="4909000" />
       <workItem from="1589803040849" duration="592000" />
-      <workItem from="1589883573134" duration="4594000" />
+      <workItem from="1589883573134" duration="4847000" />
     </task>
     <task id="LOCAL-00001" summary="few updates">
       <created>1589302638224</created>
@@ -142,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589887419367</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="few updates!">
+      <created>1589896709314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589896709314</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,10 +169,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="330" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589280955375" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1589887417081">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1589896707834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589887417081" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589896707834" />
     <state x="740" y="274" width="616" height="559" key="FileChooserDialogImpl" timestamp="1588089350888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
