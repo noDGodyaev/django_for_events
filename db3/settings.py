@@ -24,7 +24,7 @@ SECRET_KEY = '0ichi)1f6g@j69)#q(^9c+hf9vn6prcgo1jmjmh078yl0u@g)t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 # Application definition
 
@@ -79,17 +79,17 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'for_events_',
-        'USER': 'django_user',
-        'PASSWORD': '123ABC',
+        'USER': 'django_migration_user',
+        'PASSWORD': '456XYZ',
         'HOST': 'localhost',
         'PORT': '5433',
         'SCHEMAS': 'schema_for_webs',
     },
-    'default_with_migration_rights': {
+    'default_with_select_rights': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'for_events_',
-        'USER': 'django_migration_user',
-        'PASSWORD': '456XYZ',
+        'USER': 'django_user',
+        'PASSWORD': '123ABC',
         'HOST': 'localhost',
         'PORT': '5433',
         'SCHEMAS': 'schema_for_webs',

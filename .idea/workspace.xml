@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a82ed73-db2d-41b7-a66e-8f31b365d53c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EventsP/migrations/0002_auto_20200519_1321.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsP/templates/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/EventsP/templates/ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventsP/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventsP/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/db3/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +40,16 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1aclrcRwZw49QnKQKuvUG9vGUFA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -107,6 +113,8 @@
       <workItem from="1588502344932" duration="73012000" />
       <workItem from="1588761996704" duration="36632000" />
       <workItem from="1589280681035" duration="4909000" />
+      <workItem from="1589803040849" duration="592000" />
+      <workItem from="1589883573134" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="few updates">
       <created>1589302638224</created>
@@ -122,6 +130,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="few updates" />
     <option name="LAST_COMMIT_MESSAGE" value="few updates" />
   </component>

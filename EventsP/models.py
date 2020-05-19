@@ -232,7 +232,6 @@ class Timetable(models.Model):
             if fl:
                 super(Timetable, self).save(*args, **kwargs)
         else:
-            print("++++++++++++")
             super(Timetable, self).save(*args, **kwargs)
 
     class Meta:
