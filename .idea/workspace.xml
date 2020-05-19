@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a82ed73-db2d-41b7-a66e-8f31b365d53c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/db3/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django-modeladmin-reorder/meta.yaml" beforeDir="false" />
-    </list>
+    <list default="true" id="7a82ed73-db2d-41b7-a66e-8f31b365d53c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +109,7 @@
       <workItem from="1588761996704" duration="36632000" />
       <workItem from="1589280681035" duration="4909000" />
       <workItem from="1589803040849" duration="592000" />
-      <workItem from="1589883573134" duration="6716000" />
+      <workItem from="1589883573134" duration="7456000" />
     </task>
     <task id="LOCAL-00001" summary="few updates">
       <created>1589302638224</created>
