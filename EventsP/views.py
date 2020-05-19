@@ -5,8 +5,6 @@ from django.shortcuts import render
 from django.shortcuts import render
 from django.views.generic.edit import FormView
 from django.views.generic import TemplateView
-from .forms import UserCreateForm
-from django.contrib.auth.forms import UserCreationForm
 from django.http import HttpResponseRedirect
 from django.views.generic.base import View
 from django.contrib.auth import logout
@@ -15,16 +13,8 @@ from . import models
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login
 from .forms import PartForm
-from django.views.generic import ListView
 from django.http import JsonResponse
-import io
 from django.http import HttpResponse
-from rest_framework import serializers
-from rest_framework.renderers import JSONRenderer
-from rest_framework import status
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from rest_framework.parsers import JSONParser
 from .serializers import ParticipantSerializer, RoomSerializer, TeamSerializer, TimetableSerializer
 import json
 
