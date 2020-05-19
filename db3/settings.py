@@ -80,8 +80,6 @@ DATABASES = {
         'NAME': 'for_events_',
         'USER': 'django_migration_user',
         'PASSWORD': '456XYZ',
-        'HOST': 'localhost',
-        'PORT': '5433',
         'SCHEMAS': 'schema_for_webs',
     },
     'default_with_select_rights': {
@@ -89,8 +87,6 @@ DATABASES = {
         'NAME': 'for_events_',
         'USER': 'django_user',
         'PASSWORD': '123ABC',
-        'HOST': 'localhost',
-        'PORT': '5433',
         'SCHEMAS': 'schema_for_webs',
     }
 }
