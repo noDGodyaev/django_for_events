@@ -1,8 +1,4 @@
-from django.db.models import Count
-from django.shortcuts import render
-
 # Create your views here.
-from django.shortcuts import render
 from django.views.generic.edit import FormView
 from django.views.generic import TemplateView
 from django.http import HttpResponseRedirect
@@ -12,29 +8,14 @@ from .forms import UserCreateForm
 from . import models
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login
-from .forms import PartForm
 from django.http import JsonResponse
 from django.http import HttpResponse
 from .serializers import ParticipantSerializer, RoomSerializer, TeamSerializer, TimetableSerializer
 import json
 
-'''Функция для установки сессионного ключа.
-По нему django будет определять, выполнил ли вход пользователь.'''
-
 
 class MainView(TemplateView):
     template_name = 'ajax.html'
-    participant_form = PartForm
-
-    def get(self, request):
-        if request.user.is_authenticated:
-            participants = models.Participant.objects.all()
-            ctx = {}
-            ctx['participants'] = participants
-            ctx['participant_form'] = self.participant_form
-            return render(request, self.template_name, ctx)
-        else:
-            return render(request, self.template_name, {})
 
 
 def JSONPartView(request):
@@ -88,8 +69,9 @@ def JSONPartView(request):
             person.birth_date = data['birth_date'].split('T')[0]
             # person.check_in = data['check_in']
             person.arrive_status = data['arrive_status']
-            room = models.Room.objects.get(r_id=data['room'])
-            person.room = room
+            if data['room'] != '':
+                room = models.Room.objects.get(r_id=data['room'])
+                person.room = room
             if data['team'] != '':
                 team = models.Team.objects.get(t_id=data['team'])
                 person.team = team
@@ -186,3 +168,8 @@ class LogoutView(View):
     def get(self, request):
         logout(request)
         return HttpResponseRedirect("/events/")
+
+    # def ReferenceView(request):
+    template_name = 'static/eventsp/html/index.html'
+
+    # return HttpResponse(request, 'static/eventsp/html/index.html')

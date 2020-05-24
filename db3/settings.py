@@ -70,7 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'db3.wsgi.application'
-ALLOWED_HOSTS =['django-events-1.herokuapp.com']
+ALLOWED_HOSTS =['django-events-1.herokuapp.com', '127.0.0.1']
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 

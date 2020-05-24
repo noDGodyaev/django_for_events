@@ -1,23 +1,22 @@
 from django.db import models
 
-# Create your models here.
-# This is an auto-generated Django model module.
-# You'll have to do the following manually to clean this up:
-#   * Rearrange models' order
-#   * Make sure each model has one field with primary_key=True
-#   * Make sure each ForeignKey and OneToOneField has `on_delete` set to the desired behavior
-#   * Remove `managed = False` lines if you wish to allow Django to create, modify, and delete the table
-# Feel free to rename the models, but don't rename db_table values or field names.
-from django.db import models
-
 
 class Person(models.Model):
+    # Словарь для поля с выпадающим списком
     choice_status_list = (
         (0, 'Без статуса'),
         (1, 'Организатор'),
         (2, 'Участник'),
     )
+    # id человека
     p_id = models.AutoField(primary_key=True)
+    # Поле имени
+    # max_length - максимальная длинна записи
+    # verbose_name - отображаемое имя
+    # unique - атрибут для каждой записи уникален
+    # blank - возможность атрибута иметь неопределенное значение
+    # null -  возможность записать в базу данных неопределенное значение
+    # choices - выпадающий список
     middle_name = models.CharField(max_length=20, verbose_name='Фамилия')
     first_name = models.CharField(max_length=20, verbose_name='Имя')
     family_name = models.CharField(max_length=20, verbose_name='Отчество')
@@ -27,13 +26,16 @@ class Person(models.Model):
     vk_url = models.CharField(max_length=50, verbose_name='VK')
     status = models.SmallIntegerField(default=0, verbose_name='Статус', choices=choice_status_list)
 
+    # Вложенный класс определяет связь между моделью и сущностью внутри базы данных
     class Meta:
-        managed = True
-        db_table = 'ev_people'
+        managed = True  # изменения модели влекут за собой изменения сущности в базе данных
+        db_table = 'ev_people'  # связанная таблица
 
+    # Специальный метод для отображения ФИО целиком
     def i_name(self):
         return self.middle_name + ' ' + self.first_name + ' ' + self.family_name
 
+    # Краткое название метода
     i_name.short_description = 'ФИО'
 
 

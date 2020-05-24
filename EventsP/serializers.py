@@ -21,33 +21,6 @@ class ParticipantSerializer(serializers.Serializer):
     t_id = serializers.IntegerField(required=False)
     team_name = serializers.CharField(required=False)
 
-    def create(self, validated_data):
-        """
-        Create and return a new `Snippet` instance, given the validated data.
-        """
-        return Participant.objects.create(**validated_data)
-
-    """
-    def update(self, instance, validated_data):
-
-        Update and return an existing `Snippet` instance, given the validated data.
-
-        instance.p_id = validated_data.get('p_id', instance.p_id)
-        instance.first_name = validated_data.get('first_name', instance.first_name)
-        instance.middle_name = validated_data.get('middle_name', instance.middle_name)
-        instance.family_name = validated_data.get('family_name', instance.family_name)
-        instance.phone = validated_data.get('phone', instance.phone)
-        instance.group_name = validated_data.get('group_name', instance.group_name)
-        instance.vk_url = validated_data.get('vk_url', instance.vk_url)
-        instance.birth_date = validated_data.get('birth_date', instance.birth_date)
-        instance.arrive_status = validated_data.get('arrive_status', instance.arrive_status)
-        instance.phone = validated_data.get('phone', instance.phone)
-        instance.room = validated_data.get('room', instance.room)
-        instance.team = validated_data.get('team', instance.team)
-        instance.save()
-        return instance
-    """
-
 
 class TeamSerializer(serializers.Serializer):
     t_id = serializers.IntegerField(read_only=True)
@@ -63,11 +36,6 @@ class RoomSerializer(serializers.Serializer):
     # bed_num = serializers.IntegerField()
     # features = serializers.CharField(max_length=4000, required=False)
 
-    def create(self, validated_data):
-        """
-        Create and return a new `Snippet` instance, given the validated data.
-        """
-        return Room.objects.create(**validated_data)
 
 class TimetableSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)

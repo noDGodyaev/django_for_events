@@ -1,7 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a82ed73-db2d-41b7-a66e-8f31b365d53c" name="Default Changelist" comment="" />
+    <list default="true" id="7a82ed73-db2d-41b7-a66e-8f31b365d53c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/backend/install.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/backend/modules/about-me.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/backend/modules/admin.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/backend/modules/forms.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/backend/modules/install.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/backend/modules/models.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/backend/modules/serializers.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/backend/modules/urls.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/backend/modules/views.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/environment.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/frontend/how_to_use.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/doctrees/index.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/.buildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_images/4.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_images/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/backend/install.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/backend/modules/about-me.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/backend/modules/admin.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/backend/modules/forms.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/backend/modules/install.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/backend/modules/models.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/backend/modules/serializers.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/backend/modules/urls.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/backend/modules/views.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/frontend/how_to_use.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_sources/index.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/doctools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/documentation_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/language_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/nature.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/pygments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/searchtools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/underscore-1.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/_static/underscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/backend/install.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/backend/modules/about-me.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/backend/modules/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/backend/modules/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/backend/modules/install.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/backend/modules/models.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/backend/modules/serializers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/backend/modules/urls.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/backend/modules/views.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/frontend/how_to_use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/genindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/objects.inv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/static/eventsp/html/searchindex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/backend/install.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/backend/modules/about-me.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/backend/modules/admin.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/backend/modules/forms.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/backend/modules/install.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/backend/modules/models.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/backend/modules/serializers.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/backend/modules/urls.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/backend/modules/views.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/environment.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/frontend/how_to_use.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/doctrees/index.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/.buildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_images/4.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_images/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/backend/install.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/backend/modules/about-me.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/backend/modules/admin.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/backend/modules/forms.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/backend/modules/install.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/backend/modules/models.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/backend/modules/serializers.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/backend/modules/urls.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/backend/modules/views.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/frontend/how_to_use.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_sources/index.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/doctools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/documentation_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/language_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/nature.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/pygments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/searchtools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/underscore-1.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/_static/underscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/backend/install.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/backend/modules/about-me.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/backend/modules/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/backend/modules/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/backend/modules/install.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/backend/modules/models.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/backend/modules/serializers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/backend/modules/urls.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/backend/modules/views.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/frontend/how_to_use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/genindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/objects.inv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventsP/templates/html/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventsP/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventsP/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventsP/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventsP/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventsP/templates/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/EventsP/templates/ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventsP/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventsP/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventsP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/EventsP/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/db3/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +241,8 @@
       <workItem from="1588761996704" duration="36632000" />
       <workItem from="1589280681035" duration="4909000" />
       <workItem from="1589803040849" duration="592000" />
-      <workItem from="1589883573134" duration="7456000" />
+      <workItem from="1589883573134" duration="8538000" />
+      <workItem from="1590162460103" duration="11984000" />
     </task>
     <task id="LOCAL-00001" summary="few updates">
       <created>1589302638224</created>

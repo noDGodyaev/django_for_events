@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Как пользоваться &#8212; Django for Events 2020 documentation</title>
+    <link rel="stylesheet" href="../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Urls.py" href="../backend/modules/urls.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../backend/modules/urls.html" title="Urls.py"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Django for Events 2020 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>Как пользоваться<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2>Пользовательская часть<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>Данная часть веб-приложения будет использоваться всеми организаторами мероприятия.</p>
+<div class="section" id="id3">
+<h3>Главная страница<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Пользователю доступен переход на страницы регистрации и авторизации, а также страницу справки.</p>
+<img alt="../_images/1.png" src="../_images/1.png" />
+</div>
+<div class="section" id="id4">
+<h3>Страница регистрации<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>Для регистрации пользователь должен ввести логин, и два раза пароль.</p>
+<p>Причем, если пользователь с таким логином уже существует в базе, будет выведено текстовое сообщение</p>
+<p>На поле пароля также введены ограничения: длина - не менее 8 символов, пароль должен содержать цифры и буквы в верхнем и нижнем регистрах.</p>
+<img alt="../_images/2.png" src="../_images/2.png" />
+</div>
+<div class="section" id="id5">
+<h3>Страница авторизации<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/3.png" src="../_images/3.png" />
+</div>
+<div class="section" id="c">
+<h3>Cтраница для авторизованных пользователей<a class="headerlink" href="#c" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/4.png" src="../_images/4.png" />
+<p>На этой странице зарегестрированному пользователю доступен просмотр списка участников (вверху страницы) и расписание для организаторов(внизу страницы)</p>
+<p>Пользователю доступны следующие действия: обновить расписание - обновляет только таблицу с расписанием, переход по гиперссылке на стрину участника во  ВКонтаке и редактирование информации о пользователе.</p>
+<p>Форма редактирования участника:</p>
+<img alt="../_images/4.1.png" src="../_images/4.1.png" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Поле “комната” будет отображать только те комнаты, которые свободны, в зависимости от количества мест в комнате</p>
+</div>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>Административная часть<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id7">
+<h3>Страница авторизации<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>Доступ в административную часть сайта есть только у некоторых пользователей, права которых определются Суперпользователем</p>
+<img alt="../_images/5.png" src="../_images/5.png" />
+</div>
+<div class="section" id="id8">
+<h3>Главная страница<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p>На данной странице пользователю доступны списки записей, например: Нажатие на “Участники” перевеёдт пользователя на страницу со списком участников. К аналогичному результату приведет нажатие на кнопку “изменить”. Отмечены жёлтым цветом.</p>
+<p>“Добавить” переведёт пользователя на страницу создания новой записи в том списке, напротив котоого находится кнопка</p>
+<p>Зёленым цветом выделен список последних действий всех администраторов сайта(обновляется при обновлении страницы)</p>
+<p>При нажатии на запись в списке последних действий - произойдет переход на страницу редактирования этой записи.</p>
+<img alt="../_images/6.png" src="../_images/6.png" />
+</div>
+<div class="section" id="id9">
+<h3>Страница просмотра<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p>На этой странице пользователю доступен список всех записей. А так же набор фильтров(выделены синим), обновляющийся по мере появления новых записей в списке, поисковая строка (выделена зелёным), сортировка списка по названием того или иного поля(выделено жёлтым).</p>
+<p>Пользователь имеет возможность добавления новой записи в список - кнопка “Добавить участника” (выделена розовым) и ипри нажатии на первый атрибут люой записи откроется страница редактирования этой записи.</p>
+<p>Оранжевым выделен флажок для обработки нескольких записей одновременно, выпадающий список с действиями выделен коричневым.</p>
+<img alt="../_images/7.png" src="../_images/7.png" />
+</div>
+<div class="section" id="id10">
+<h3>Страница редактирования/добавления записи<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p>Пользователю доступно  редактирование всех полей. Особенное внимание стоит уделить аргументам, названия которых  выделены жирным шрифтом - эти аргументы должны быть заполнены обязательно.</p>
+<p>Для удобства работы с формой добавлены выпадающий календарь для поля даты и часы для поля времени.(выделены красным и оранжевым, соответственно)</p>
+<p>Зелёным цветом выделена функция быстрого перехода к форме добавления/редактирования связанной записи, в нашем случае комнаты.</p>
+<p>В правой части пользователю доступны три действия “Сохранить и добавить другой объект” откроет чистую форму, “Сохранить и продолжить редактирование” - созраняет запись и оставляет пользователя на той же странице, “Сохранить” - сохраняет запись и выходит к списку записей.</p>
+<img alt="../_images/8.png" src="../_images/8.png" />
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Как пользоваться</a><ul>
+<li><a class="reference internal" href="#id2">Пользовательская часть</a><ul>
+<li><a class="reference internal" href="#id3">Главная страница</a></li>
+<li><a class="reference internal" href="#id4">Страница регистрации</a></li>
+<li><a class="reference internal" href="#id5">Страница авторизации</a></li>
+<li><a class="reference internal" href="#c">Cтраница для авторизованных пользователей</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id6">Административная часть</a><ul>
+<li><a class="reference internal" href="#id7">Страница авторизации</a></li>
+<li><a class="reference internal" href="#id8">Главная страница</a></li>
+<li><a class="reference internal" href="#id9">Страница просмотра</a></li>
+<li><a class="reference internal" href="#id10">Страница редактирования/добавления записи</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../backend/modules/urls.html"
+                        title="previous chapter">Urls.py</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/frontend/how_to_use.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../backend/modules/urls.html" title="Urls.py"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Django for Events 2020 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Dmitry Godyaev.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.3.
+    </div>
+  </body>
+</html>
